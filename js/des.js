@@ -43,11 +43,13 @@ const retornaArreglo = () =>{
 const [ letras, numeros ] = retornaArreglo();
 console.log(letras, numeros);*/
 
-import { getHeroeById } from "./index.js";
+//PROMESA
+
+/*import { getHeroeById } from "./index.js";
 
 const getHeroeByIdAsync = ( id ) => {
     
-    return new Promise( (resolve, reject)) => {
+    return new Promise((resolve, reject)) => {
 
         setTimeout( () => {
             const p1 = getHeroeById( id );
@@ -60,7 +62,6 @@ const getHeroeByIdAsync = ( id ) => {
         }, 2000 )
     }
 }
-
 getHeroeByIdAsync(3)
     .then(console.log)
-    .catch(console.log)
+    .catch(console.log)*/
